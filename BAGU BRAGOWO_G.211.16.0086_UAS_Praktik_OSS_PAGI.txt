@@ -1,0 +1,34 @@
+Berikut tampilan sebelum diperbaiki
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else (var != 100): print "Value of expression is not 100"
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a
+print("b is greater than a") % you will get an error
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+  print(x)
+  
+Dan berikut setelah di perbaiki
+
+var = 10
+if ( var == 100 ) : print "Value of expression is 100"
+else : print "Value of expression is not 100"
+print "Good bye!"
+
+a = 33
+b = 200
+if b > a : print("b is greater than a") #you will get an error
+
+mahasiswa = ["jangan", "lupa", "ucapkan", "salam"]
+for x in mahasiswa:
+  print(x)
+  
+Perbaikan yang pertama dilakukan terdapat pada else, karena else tidak memerlukan kondisi untuk (var != 100) dihilangkan saja 
+Perbaikan yang kedua terletak pada % yang diganti dengan # untuk pemberian coment dan perintah print pindah ke samping if
+yang ketiga tidak membutuhkan perbaikan karena sudah sesuai
